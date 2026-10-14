@@ -1,0 +1,17 @@
+{
+  "title": "AURA-Q Curated Intent Benchmarks and Exploratory Simulator Data",
+  "version": "1.0.0",
+  "creators": [
+    "Sourodeep Kundu",
+    "Kalyanaraman P"
+  ],
+  "affiliation": "School of Computer Science and Engineering, Vellore Institute of Technology, Vellore, India",
+  "contact": "pkalyanaraman@vit.ac.in",
+  "resource_type": "Dataset",
+  "source_of_data": "Original data",
+  "repository": "GitHub",
+  "description": "Author-curated request benchmarks, exploratory replay decisions, and five figure-data tables",
+  "publication_date": null,
+  "license": null,
+  "rights": "No additional reuse license is granted by this deposit. Contact the authors regarding reuse."
+}

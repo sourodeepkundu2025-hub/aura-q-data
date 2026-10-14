@@ -1,0 +1,31 @@
+split,case_id,prompt,gold_status,gold_profile,gold_deadline_seconds,gold_budget_usd,gold_min_success_probability,gold_hardware_required,gold_simulator_allowed
+test,v2-l1,"Turnaround time is the deciding factor.",compiled,latency_first,150,1.5,0.2,false,true
+test,v2-l2,"Queue delay matters more than price for this job.",compiled,latency_first,150,1.5,0.2,false,true
+test,v2-l3,"Give me the lowest waiting time available.",compiled,latency_first,150,1.5,0.2,false,true
+test,v2-l4,"Speed over fidelity; return within 75 seconds.",compiled,latency_first,75,1.5,0.2,false,true
+test,v2-l5,"This is urgent even if the cost is higher.",compiled,latency_first,150,1.5,0.2,false,true
+test,v2-l6,"Minimize wall-clock delay on a real QPU.",compiled,latency_first,150,1.5,0.2,true,false
+test,v2-q1,"Correctness is more important than turnaround.",compiled,quality_first,150,1.5,0.2,false,true
+test,v2-q2,"Select the device with the highest expected fidelity.",compiled,quality_first,150,1.5,0.2,false,true
+test,v2-q3,"Avoid noisy devices; I need a reliable result.",compiled,quality_first,150,1.5,0.2,false,true
+test,v2-q4,"Give me the best possible result under $1.00.",compiled,quality_first,150,1.0,0.2,false,true
+test,v2-q5,"Quality dominates every other consideration.",compiled,quality_first,150,1.5,0.2,false,true
+test,v2-q6,"Maximize the probability of a correct answer.",compiled,quality_first,150,1.5,0.2,false,true
+test,v2-c1,"Spend as little as possible.",compiled,budget_first,150,1.5,0.2,false,true
+test,v2-c2,"Price is the deciding factor for this run.",compiled,budget_first,150,1.5,0.2,false,true
+test,v2-c3,"Choose lower cost over shorter turnaround.",compiled,budget_first,150,1.5,0.2,false,true
+test,v2-c4,"Use the cheapest option even if I must wait.",compiled,budget_first,150,1.5,0.2,false,true
+test,v2-c5,"Minimize spend and cap it at $0.75.",compiled,budget_first,150,0.75,0.2,false,true
+test,v2-c6,"Take the economy route; simulation is fine.",compiled,budget_first,150,1.5,0.2,false,true
+test,v2-b1,"Treat quality, delay, and price with equal importance.",compiled,balanced,150,1.5,0.2,false,true
+test,v2-b2,"Find a reasonable compromise across all three objectives.",compiled,balanced,150,1.5,0.2,false,true
+test,v2-b3,"I have no preference among cost, speed, and fidelity.",compiled,balanced,150,1.5,0.2,false,true
+test,v2-b4,"Use a balanced policy with a maximum cost of $1.20.",compiled,balanced,150,1.2,0.2,false,true
+test,v2-b5,"Quality, cost, and waiting time should count equally.",compiled,balanced,150,1.5,0.2,false,true
+test,v2-b6,"Choose the middle ground rather than an extreme.",compiled,balanced,150,1.5,0.2,false,true
+test,v2-a1,"Run the circuit for me.",abstain,,150,1.5,0.2,false,true
+test,v2-a2,"Which backend should I use?",abstain,,150,1.5,0.2,false,true
+test,v2-a3,"I require both the fastest and the most accurate option.",abstain,,150,1.5,0.2,false,true
+test,v2-a4,"Pick the cheapest backend with the highest fidelity.",abstain,,150,1.5,0.2,false,true
+test,v2-a5,"Physical QPU only, although simulation is acceptable; prioritize quality.",abstain,,150,1.5,0.2,true,true
+test,v2-a6,"Use IBM Brisbane for this request.",abstain,,150,1.5,0.2,false,true
