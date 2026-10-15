@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+type: dataset
+message: "If you use these data, cite the AURA-Q dataset and identify the repository snapshot."
+title: "AURA-Q Curated Intent Benchmarks and Exploratory Simulator Data"
+version: 1.1.0
+date-released: 2026-10-14
+authors:
+  - family-names: "Kundu"
+    given-names: "Sourodeep"
+  - family-names: "Kalyanaraman P"
+url: "https://github.com/sourodeepkundu2025-hub/aura-q-data"
+repository-code: "https://github.com/sourodeepkundu2025-hub/aura-q-data"
+license: CC-BY-4.0
+keywords:
+  - quantum computing
+  - QPU selection
+  - intent compilation
+  - reproducibility
+  - simulator replay
+abstract: "Original author-curated intent benchmarks, retained exploratory simulator replay records, and figure-data summaries accompanying AURA-Q. Utility software is licensed separately under MIT."

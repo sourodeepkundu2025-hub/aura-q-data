@@ -1,0 +1,6 @@
+artifact,origin,reconstructed_here,interpretation
+four_stage_ablation.csv,retained gold and Qwen decision records,4 mean regrets,variant objectives can differ
+intent_model_comparison.csv,archived component scores and retained model replay records,3 coupling differences,classification scores are reported rather than rerun
+one_parameter_sensitivity.csv,7 retained sweep decision files,7 mean differences,quality weight fixed at 0.2
+quality_latency_heatmap.csv,15 retained grid decision files,15 mean differences,cost weight is residual
+profile_stratified_forest.csv,primary RUN-017 profile summary,none from released RUN-018 raw records,primary raw records outside deposit

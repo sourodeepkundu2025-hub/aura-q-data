@@ -1,6 +1,6 @@
 {
   "title": "AURA-Q Curated Intent Benchmarks and Exploratory Simulator Data",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "creators": [
     "Sourodeep Kundu",
     "Kalyanaraman P"
@@ -12,6 +12,7 @@
   "repository": "GitHub",
   "description": "Author-curated request benchmarks, exploratory replay decisions, and five figure-data tables",
   "publication_date": null,
-  "license": null,
-  "rights": "No additional reuse license is granted by this deposit. Contact the authors regarding reuse."
+  "license": "CC-BY-4.0",
+  "software_license": "MIT",
+  "rights": "Author-created data and derived result previews: CC BY 4.0. New utility software: MIT. See LICENSE and LICENSES/DATA_LICENSE.md."
 }

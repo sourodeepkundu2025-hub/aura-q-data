@@ -1,0 +1,17 @@
+name: Proposed improvement
+description: Suggest a focused analysis, documentation or usability improvement.
+title: "[Proposal] "
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Research or user need
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Proposed change and evidence needed
+      description: Explain the inputs, expected output and how the result would be checked.
+    validations:
+      required: true

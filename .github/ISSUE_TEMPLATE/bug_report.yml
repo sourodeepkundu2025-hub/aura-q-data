@@ -1,0 +1,23 @@
+name: Utility bug
+description: Report a problem with validation, summaries or the command-line tools.
+title: "[Bug] "
+body:
+  - type: input
+    id: environment
+    attributes:
+      label: Python version, operating system and repository commit
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps and expected behavior
+      description: Include the exact command and a minimal example.
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Actual output
+      description: Remove credentials and private filesystem details.
+      render: text

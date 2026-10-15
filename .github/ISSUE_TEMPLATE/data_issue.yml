@@ -1,0 +1,29 @@
+name: Data or provenance issue
+description: Report a reproducibility, schema, unit or source-lineage problem.
+title: "[Data] "
+body:
+  - type: input
+    id: snapshot
+    attributes:
+      label: Repository snapshot
+      description: Commit hash or release version.
+    validations:
+      required: true
+  - type: input
+    id: file
+    attributes:
+      label: Relative file path
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: Observed issue and expected interpretation
+      description: Include the affected columns, values and comparison definition.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Small reproduction or supporting calculation
+      description: Use synthetic examples when private information is involved.

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auraq-data"
+version = "1.1.0"
+description = "Validation and analysis utilities for the AURA-Q research-data collection"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Sourodeep Kundu"}, {name = "Kalyanaraman P"}]
+dependencies = []
+keywords = ["quantum-computing", "qpu-selection", "research-data", "reproducibility"]
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.8,<4"]
+
+[project.scripts]
+auraq-data = "auraq_data.cli:main"
+
+[project.urls]
+Repository = "https://github.com/sourodeepkundu2025-hub/aura-q-data"
+Issues = "https://github.com/sourodeepkundu2025-hub/aura-q-data/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title desc">
+  <title id="title">AURA-Q: governed QPU selection research</title>
+  <desc id="desc">Curated intent benchmarks, simulator replay data and reproducible analysis utilities.</desc>
+  <rect width="1200" height="270" fill="#f5f8fb"/>
+  <rect x="0" y="0" width="8" height="270" fill="#175e87"/>
+  <text x="54" y="48" font-family="Arial, sans-serif" font-size="16" letter-spacing="3" fill="#536774">OPEN RESEARCH DATA · VERSION 1.1</text>
+  <text x="50" y="128" font-family="Georgia, serif" font-size="70" font-weight="bold" fill="#16354a">AURA-Q</text>
+  <text x="55" y="173" font-family="Arial, sans-serif" font-size="25" fill="#243f50">Governed Agentic AI for Auditable QPU Selection</text>
+  <text x="55" y="218" font-family="Arial, sans-serif" font-size="18" fill="#536774">Curated benchmarks  /  Simulator data  /  Reproducible analysis</text>
+  <line x1="955" y1="74" x2="1135" y2="74" stroke="#a7bac7" stroke-width="2"/>
+  <line x1="955" y1="132" x2="1135" y2="132" stroke="#a7bac7" stroke-width="2"/>
+  <line x1="955" y1="190" x2="1135" y2="190" stroke="#a7bac7" stroke-width="2"/>
+  <circle cx="980" cy="74" r="9" fill="#175e87"/>
+  <circle cx="1040" cy="132" r="9" fill="#175e87"/>
+  <circle cx="1100" cy="190" r="9" fill="#175e87"/>
+</svg>
