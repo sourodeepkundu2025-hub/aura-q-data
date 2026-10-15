@@ -46,6 +46,8 @@ def main():
         target = output / (name + ".svg")
         fig.savefig(target, format="svg", bbox_inches="tight", facecolor="white",
                     metadata={"Date":None, "Creator":None, "Description":description})
+        # Hash the same canonical SVG bytes on Windows and Unix checkouts.
+        target.write_bytes(target.read_bytes().replace(b"\r\n", b"\n"))
         if qa:
             fig.savefig(qa / (name + ".png"), dpi=160, bbox_inches="tight", facecolor="white")
         provenance["files"].append({"output":target.name,

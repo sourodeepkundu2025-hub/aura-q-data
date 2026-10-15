@@ -3,14 +3,14 @@
   "files": [
     {
       "output": "intent_scores.svg",
-      "output_sha256": "9b31da93a1eff91919dd1cc8b8bb3f43fbdf3dc5f16c3bd75620bdb598537a6d",
+      "output_sha256": "74371261fc3a7c73bea4fa6628935c57529653ec95f3fa7eedf4ad5226e8cdee",
       "source": "data/figure_tables/intent_model_comparison.csv",
       "source_sha256": "baea911f2cbbe3898688b6c66473c6343dcc23b79d21aaa6d62f08ae9ef3936d",
       "description": "Reported profile macro-F1 on 50 author-curated requests; zero-based scale; no invented intervals."
     },
     {
       "output": "preference_sensitivity.svg",
-      "output_sha256": "738ed399e49afd5cc2f8df514168efc553ecd0eee68b9736fefcfd12c7bb2d74",
+      "output_sha256": "465ed7dc756e28b1f11b72adb94f8b03520d41948425b8b5d601899966338723",
       "source": "data/figure_tables/one_parameter_sensitivity.csv",
       "source_sha256": "c0ce88c3d878dc182aeb6af65d7cd63aef5a0e9815e93d20e686eef804b31522",
       "description": "Exploratory AURA-Q minus shortest-queue regret; quality weight 0.2; stored low/high endpoints."
